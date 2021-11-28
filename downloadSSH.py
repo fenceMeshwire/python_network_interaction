@@ -15,7 +15,7 @@ def download(localDirectory, remoteDirectory):
     ssh.load_host_keys(os.path.expanduser(os.path.join('~', '.ssh', 'known_hosts')))
     ssh.connect(serverIP, username=usrname, password=passwd)
     sftp = ssh.open_sftp()
-    sftp.get(remoteDirectory, localDirectory)
+    sftp.get(remoteDirectory, localDirectory) # note the differences in distinction to the upload method: get instead of 'put' request and both directories are also twisted.
     sftp.close()
     ssh.close()
 
@@ -26,4 +26,4 @@ remoteDirectory = '' + filename
 try:
     download(localDirectory, remoteDirectory)
 except BaseException as err:
-    print('Please check the name of the directory and the file.', err)
+    print('Please check the names of the directories and the file to be transfered.', err)
