@@ -26,4 +26,4 @@ remoteDirectory = '' + filename
 try:
     upload(localDirectory, remoteDirectory)
 except BaseException as err:
-    print('Please check the name of the directory and the file.', err)
+    print('Please check the names of the directories and the file to be transfered.', err)
