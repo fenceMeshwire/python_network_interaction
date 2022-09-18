@@ -4,9 +4,10 @@
 
 # Purpose:
 # Concept of showing IP addresses of local machines within your private owned network.
-# The ARP is used to find the MAC address of the neighbors in a network. 
+# The ARP (Address Resolution Protocol, RFC 826) is used to find the IP and MAC address 
+# of the neighbors in a network. 
 
-# This can be achieved much easier, by typing 'arp -a' in the command line 
+# This can be also achieved much easier, by typing 'arp -a' in the command line 
 # if you work on a windows computer.
 
 # Dependency
