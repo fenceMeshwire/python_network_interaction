@@ -19,11 +19,12 @@ def upload(localDirectory, remoteDirectory):
     sftp.close()
     ssh.close()
 
-filename = ''
-localDirectory = '' + filename
-remoteDirectory = '' + filename
+if __name__ == '__main__':
+    filename = ''
+    localDirectory = '' + filename
+    remoteDirectory = '' + filename
 
-try:
-    upload(localDirectory, remoteDirectory)
-except BaseException as err:
-    print('Please check the names of the directories and the file to be transfered.', err)
+    try:
+        upload(localDirectory, remoteDirectory)
+    except BaseException as err:
+        print('Please check the names of the directories and the file to be transfered.', err)
