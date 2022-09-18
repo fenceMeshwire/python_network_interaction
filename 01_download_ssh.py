@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# downloadSSH.py
+# 01_download_ssh.py
 
 # Purpose: Download a file via SSH from a remote server.
 
