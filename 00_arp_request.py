@@ -16,7 +16,7 @@ import scapy.all as scapy
 def do_arp(ip_router):
     arp_request = scapy.ARP(pdst=ip_router)
     broadcast = scapy.Ether()
-    broadcast.dst='ff:ff:ff:ff:ff:ff' # Send arp-request by sending the broadcast address.
+    broadcast.dst='ff:ff:ff:ff:ff:ff' # Do an arp-request by sending the broadcast address.
     broadcast_over_arp_request = broadcast/arp_request
     replies = scapy.srp(broadcast_over_arp_request, timeout = 1)[0]
     print('IP address', '\t|  ', 'MAC address')
