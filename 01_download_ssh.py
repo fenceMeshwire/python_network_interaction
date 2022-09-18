@@ -18,12 +18,13 @@ def download(localDirectory, remoteDirectory):
     sftp.get(remoteDirectory, localDirectory) # note the differences in distinction to the upload method: get instead of 'put' request and both directories are also twisted.
     sftp.close()
     ssh.close()
+    
+if __name__ == '__main__':
+    filename = ''
+    localDirectory = '' + filename
+    remoteDirectory = '' + filename
 
-filename = ''
-localDirectory = '' + filename
-remoteDirectory = '' + filename
-
-try:
-    download(localDirectory, remoteDirectory)
-except BaseException as err:
-    print('Please check the names of the directories and the file to be transfered.', err)
+    try:
+        download(localDirectory, remoteDirectory)
+    except BaseException as err:
+        print('Please check the names of the directories and the file to be transfered.', err)
