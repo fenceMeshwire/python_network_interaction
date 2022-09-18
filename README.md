@@ -1,4 +1,7 @@
-<h2>sshPython</h2>
-<h3>SSH Operation for SFTP</h3>
+<h4>python_network_interaction</h4>
 
-<p>Basic concepts for downloading and uploading files securely from e.g. a raspberry pi computer.</p>
+<p>Basic concepts for interacting with other computers in a network</p>
+<ol>
+<li>01_download_ssh.py</li>
+<li>02_upload_ssh.py</li>
+</ol>
