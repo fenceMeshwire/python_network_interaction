@@ -25,5 +25,6 @@ if __name__ == '__main__':
     result = create_designations(LETTERS, LETTERS_DIGITS)
     print(result)
     # ['AA', 'AB', 'AC', ..., 'A7', 'A8', 'A9', 'BA', 'BB', ...]
-    len(result)
+    count_designations = len(result)
+    print(count_designations)
     # 792
