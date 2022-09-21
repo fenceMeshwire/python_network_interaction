@@ -2,7 +2,7 @@
 
 # Python 3.9.5
 
-# 04_patch_area_designation_small_company.py
+# 03_patch_area_designation_small_company.py
 
 LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', \
     'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
