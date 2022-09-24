@@ -2,7 +2,7 @@
 
 <p>Basic concepts for interacting with other computers in a network.</p>
 
-<p>00_arp_request.py</p>
-<p>01_download_ssh.py</p>
-<p>02_upload_ssh.py</p>
-<p>03_patch_area_designation_small_company.py</p>
+00_arp_request.py
+01_download_ssh.py
+02_upload_ssh.py
+03_patch_area_designation_small_company.py
