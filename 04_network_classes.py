@@ -7,7 +7,7 @@
 # CLASS A
 class_a = [a for a in range(1, 127 ,1)] # 0 and 127 are excluded
 bin_class_a = [bin(a) for a in range(1, 127, 1)]
-bin_class_a[0], bin_class_a[-1] # 00000001 to 01111110'
+bin_class_a[0], bin_class_a[-1] # 00000001 to 01111110
 
 # CLASS B
 class_b = [b for b in range(128, 192, 1)] # 128 - 191
