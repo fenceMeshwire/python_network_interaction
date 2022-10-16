@@ -31,12 +31,12 @@ def get_hosts(binary_digits):
 if __name__ == '__main__':
     # e.g. 10.0.0.1
     n_hosts_class_a = get_hosts(24) # 24 bit range for possible hosts
-    print(n_hosts_class_a)
+    print(n_hosts_class_a) # 16777214
     
     # e.g. 167.16.15.3
     n_host_class_b = get_hosts(16) # 16 bit range for possible hosts
-    print(n_host_class_b)
+    print(n_host_class_b) # 65534
     
     # e.g. 192.168.0.1
     n_host_class_c = get_hosts(8)  # 8 bit range for possible hosts
-    print(n_host_class_c)
+    print(n_host_class_c) # 254
