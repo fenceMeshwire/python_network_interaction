@@ -6,7 +6,7 @@
 
 # Purpose: Calculate parameters for the optimal subnet mask
 
-# Dependency
+# Dependencies
 import pandas as pd
 from numpy import log as ln
 
