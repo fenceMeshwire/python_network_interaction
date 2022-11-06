@@ -2,7 +2,7 @@
 
 # Python 3.9.5
 
-# 05_optimal_subnet_mask.py
+# 05_optimal_subnet_mask_ipv4.py
 
 # Purpose: Calculate parameters for the optimal subnet mask
 
